@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="API Oficial do WhatsApp comparada ao WhatsApp Web">
+  <defs>
+    <pattern id="dots2" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="5" height="5" fill="#c9dcfa"/>
+    </pattern>
+    <filter id="soft2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0b2a5b" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="1199" height="629" fill="none" stroke="#e8eaee"/>
+
+  <rect x="48" y="48" width="72" height="48" fill="url(#dots2)" opacity="0.9"/>
+  <rect x="1080" y="48" width="72" height="48" fill="url(#dots2)" opacity="0.9"/>
+  <rect x="48" y="534" width="72" height="48" fill="url(#dots2)" opacity="0.9"/>
+  <rect x="1080" y="534" width="72" height="48" fill="url(#dots2)" opacity="0.9"/>
+
+  <!-- cartao esquerdo: API oficial -->
+  <g filter="url(#soft2)">
+    <rect x="150" y="150" width="400" height="330" rx="20" fill="#ffffff" stroke="#dbe6fb"/>
+  </g>
+  <rect x="150" y="150" width="400" height="6" rx="3" fill="#1875ee"/>
+  <rect x="186" y="196" width="72" height="72" rx="20" fill="#1875ee"/>
+  <path d="M206 232h32M222 216v32" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <rect x="186" y="300" width="214" height="14" rx="7" fill="#2b3340"/>
+  <rect x="186" y="332" width="300" height="9" rx="4.5" fill="#b9c3d2"/>
+  <rect x="186" y="352" width="252" height="9" rx="4.5" fill="#b9c3d2"/>
+  <g>
+    <rect x="186" y="392" width="150" height="34" rx="17" fill="#eaf1fe"/>
+    <circle cx="206" cy="409" r="7" fill="#1875ee"/>
+    <rect x="222" y="405" width="94" height="8" rx="4" fill="#1875ee"/>
+  </g>
+
+  <!-- vs -->
+  <circle cx="600" cy="315" r="34" fill="#ffffff" stroke="#e3e6ec"/>
+  <rect x="582" y="310" width="36" height="10" rx="5" fill="#9aa4b4"/>
+
+  <!-- cartao direito: WhatsApp Web -->
+  <g filter="url(#soft2)">
+    <rect x="650" y="150" width="400" height="330" rx="20" fill="#ffffff" stroke="#e3e6ec"/>
+  </g>
+  <rect x="650" y="150" width="400" height="6" rx="3" fill="#0f9d58"/>
+  <rect x="686" y="196" width="72" height="72" rx="20" fill="#0f9d58"/>
+  <path d="M706 232a16 16 0 1 1 6 12l-8 2 2-8a16 16 0 0 1 0-6z" fill="#ffffff"/>
+  <rect x="686" y="300" width="186" height="14" rx="7" fill="#2b3340"/>
+  <rect x="686" y="332" width="286" height="9" rx="4.5" fill="#b9c3d2"/>
+  <rect x="686" y="352" width="222" height="9" rx="4.5" fill="#b9c3d2"/>
+  <g>
+    <rect x="686" y="392" width="178" height="34" rx="17" fill="#f2f3f5"/>
+    <circle cx="706" cy="409" r="7" fill="#9aa4b4"/>
+    <rect x="722" y="405" width="122" height="8" rx="4" fill="#9aa4b4"/>
+  </g>
+</svg>
